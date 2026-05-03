@@ -1,0 +1,11 @@
+Clone the repo and follow the tutorial.
+What you need to do
+[ ] Clone the repo
+[ ] Add a nav and footer using {% include %}
+[ ] Create a content area using {% block content %}
+[ ] Make pages extend the base template using {% extends %}
+[ ] Wire up the index route in app.py
+[ ] Add a new route for the market update page
+[ ] Build out the “Latest news & updates” section
+[ ] Create a reusable card macro
+[ ] Add styling to match the design

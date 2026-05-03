@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from ' components/card.html import Card'%}
+{% block context %}
+   <section>
+    <!-- Hero Call to action --> 
+   </section>
+   <section Class = "latest-news">
+    <!-- Hero Call to action -->
+   </section>
+   <section>
+    <!-- Hero Call to action -->
+     <h2>Latest News & Updates</h2>
+     <div>
+        {%for article in articles% }
+            {{ Card(article) }}
+        {% endfor %}
+     </div Class = "latest-news">
+   </section> 
+   
